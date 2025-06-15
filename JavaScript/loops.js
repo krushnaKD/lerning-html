@@ -39,7 +39,7 @@
 //   for(let i = 0;i<arr.length;i++){
 //     if(arr[i]<0){
 //         count = count + 1
-    
+
 //     }
 //   }
 //   return 1
@@ -59,14 +59,14 @@
 //      }
 //     }
 //     console.log(large);
-    
+
 // }
 // largestNumber()
 
 // for(let i=0;i<3;i++){
 //     for(let j=0;j<i;j++){
 //         console.log("i="  ,i , "j =" ,j);
-        
+
 //     }
 // }
 
@@ -85,7 +85,7 @@
 // for(let i = 0;i<3;i++){
 //     for(let j=i;j>=0;j--){
 //         console.log("i="  ,i , "j =" ,j);
-        
+
 //     }
 // }
 
@@ -104,18 +104,38 @@
 //     let row = ""
 //     for(let j = 0;j<4;j++){
 //         row = row + "*";
-        
+
 //     }
 //     console.log(row);
 // }
 
 //Q
 
-for(let i = 0;i<4;i++){
-    let rightangle = " "
-    for(let j = 0;j<i+1;j++){
-        rightangle = rightangle + "*"
-    }
-    console.log(rightangle);
-    
+// for(let i = 0;i<4;i++){
+//     let rightangle = " "
+//     for(let j = 0;j<i+1;j++){
+//         rightangle = rightangle + "*"
+//     }
+//     console.log(rightangle);
+
+// }
+
+//Q
+
+// for (let i = 1; i <= 5; i++) {
+//   let row = "";
+//   for (let j = 1; j <= i; j++) {
+//     row = row + i;
+//   }
+//   console.log(row);
+// }
+
+//Q
+
+for (let i = 5; i > 0; i--) {
+  let row = "";
+  for (let j = 1; j <= i; j++) {
+    row = row + j;
+  }
+  console.log(row);
 }
