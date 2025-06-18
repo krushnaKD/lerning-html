@@ -132,10 +132,74 @@
 
 //Q
 
-for (let i = 5; i > 0; i--) {
-  let row = "";
-  for (let j = 1; j <= i; j++) {
-    row = row + j;
-  }
-  console.log(row);
-}
+// for (let i = 5; i > 0; i--) {
+//   let row = "";
+//   for (let j = 1; j <= i; j++) {
+//     row = row + j;
+//   }
+//   console.log(row);
+// }
+
+//Q
+// *****
+// ****
+// ***
+// **
+// *
+//ans
+// for(let i = 0;i<5;i++){
+//   let row = "";
+//   for(let j = 0;j<5-i;j++){
+//     row = row + "*";
+//   }
+//   console.log(row);
+// }
+
+//Q
+//     *
+//    **
+//   ***
+//  ****
+// *****
+
+// for (let i = 0; i < 5; i++) {
+//   let row = "";
+//   for (let j = 0; j < 5 - (i + 1); j++) {
+//     row = row + "+";
+//   }
+//   for (let k = 0; k < i + 1; k++) {
+//     row = row + "*";
+//   }
+//   console.log(row);
+// }
+
+// for (let i = 0; i < 5; i++) {
+//   let row = " ";
+//   let swich = 1;
+//   for (let j = 0; j < i + 1; j++) {
+//     row = row + swich;
+//     if (swich == 1) {
+//       swich = 0;
+//     } else {
+//       swich = 1;
+//     }
+//   }
+//   console.log(row);
+// }
+
+// let swich = 1;
+// for (let i = 0; i < 5; i++) {
+//   let row = " ";
+
+//   for (let j = 0; j < i + 1; j++) {
+//     row = row + swich;
+//     if (swich == 1) {
+//       swich = 0;
+//     } else {
+//       swich = 1;
+//     }
+//   }
+//   console.log(row);
+// }
+
+
